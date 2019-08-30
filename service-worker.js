@@ -27,23 +27,27 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "46cc27e3bee5d8c9430a05ba8627ea3f"
+    "revision": "39a7da87a57739578a517666e3bb7bc8"
   },
   {
     "url": "404/index.html",
-    "revision": "46cc27e3bee5d8c9430a05ba8627ea3f"
+    "revision": "39a7da87a57739578a517666e3bb7bc8"
   },
   {
     "url": "about/index.html",
-    "revision": "5679af35f062dda1ec96c46c716886ec"
+    "revision": "56f3481968d2750bcb432a99a02ceb7e"
   },
   {
-    "url": "assets/css/0.styles.96b281cd.css",
-    "revision": "4a84a4914e1180ab0f2688f60f9e5ba7"
+    "url": "assets/css/0.styles.4cf11ed0.css",
+    "revision": "7bf6d2f57aa038e3ee1ad31116833a10"
   },
   {
     "url": "assets/data/1/0098f323.json",
     "revision": "3550bc36e9a68d801b0daa599cd0f0c7"
+  },
+  {
+    "url": "assets/data/1/0d9d45c6.json",
+    "revision": "876d3c566c3abc2aaec6e9df93c0e586"
   },
   {
     "url": "assets/data/1/1cc0906e.json",
@@ -62,24 +66,20 @@ self.__precacheManifest = [
     "revision": "f5bc8a048b5aeeb9be85508ba67bc605"
   },
   {
-    "url": "assets/data/1/7c41e498.json",
-    "revision": "4d97e991128714a9d13c97a6d9822bf6"
+    "url": "assets/data/1/753776a5.json",
+    "revision": "0e34b3e68bfc6183e6e6c477a759d89d"
   },
   {
     "url": "assets/data/1/7f809913.json",
     "revision": "da1de44e7c4710018f14c3eb04e40664"
   },
   {
-    "url": "assets/data/1/81926f4a.json",
-    "revision": "3bc8f40e269ae64c53477afe20a6e92d"
-  },
-  {
-    "url": "assets/data/1/94ff6f00.json",
-    "revision": "715d595815003dffe5936c1697a0c692"
-  },
-  {
     "url": "assets/data/1/ab0c29d6.json",
     "revision": "d6708b81ce7a3d5bf509a025a84f686e"
+  },
+  {
+    "url": "assets/data/1/b5617408.json",
+    "revision": "f940394ba022b8d003c8615778e306c7"
   },
   {
     "url": "assets/data/1/ba7e4d3a.json",
@@ -98,8 +98,8 @@ self.__precacheManifest = [
     "revision": "7ac66437c5d870ab9e2a1acadc02154d"
   },
   {
-    "url": "assets/js/app.552f9df0.js",
-    "revision": "0a24c1e310f5795029b4724627e1c8ec"
+    "url": "assets/js/app.675bd70c.js",
+    "revision": "46b1f69e199ea476a7e08de961123492"
   },
   {
     "url": "assets/js/page--src--pages--404-vue.0cea4224.js",
@@ -110,7 +110,7 @@ self.__precacheManifest = [
     "revision": "20a87b47cdd947ab60012f5fe61954e4"
   },
   {
-    "url": "assets/js/page--src--pages--blog-vue.2feebcfe.js",
+    "url": "assets/js/page--src--pages--blog-vue.0e234de6.js",
     "revision": "0bc98f9e2066bd7337c1c8b9d0277bc4"
   },
   {
@@ -122,11 +122,11 @@ self.__precacheManifest = [
     "revision": "d0ee1be332592ca8433b1f8c96423ed2"
   },
   {
-    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.561cad2f.js",
-    "revision": "83f926a93d8ee2f09b5bf40523c749bd"
+    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.4b295f07.js",
+    "revision": "02241d34044fe725569b88d045226490"
   },
   {
-    "url": "assets/js/page--src--pages--index-vue.670608f9.js",
+    "url": "assets/js/page--src--pages--index-vue.e499fb77.js",
     "revision": "cd643d6b5d379c0e83da76f4b6e1f27e"
   },
   {
@@ -150,20 +150,20 @@ self.__precacheManifest = [
     "revision": "dddf26a03b4a9f7e7a0c6721784344e3"
   },
   {
-    "url": "assets/js/page--src--templates--newsletter-vue.4904b6fe.js",
-    "revision": "55403f9a05382e9c5abbd0432c729091"
+    "url": "assets/js/page--src--templates--newsletter-vue.c5b9a2ee.js",
+    "revision": "870142eeae4816b21ecf0d2363505f7b"
   },
   {
-    "url": "assets/js/page--src--templates--post-vue.8376657b.js",
-    "revision": "3b45b94e263c4fb69691284706b4470a"
+    "url": "assets/js/page--src--templates--post-vue.b96358a9.js",
+    "revision": "7982dc83abc4b809d00f0264177cf633"
   },
   {
-    "url": "assets/js/page--src--templates--tag-vue.f1a1cb0f.js",
-    "revision": "b6ec335de47aa7279b9e290b7db5ce3a"
+    "url": "assets/js/page--src--templates--tag-vue.dfe142b0.js",
+    "revision": "9a527542a45696ab16173d9cefa4e24a"
   },
   {
-    "url": "assets/js/vendors~page--src--templates--post-vue.fedeac33.js",
-    "revision": "c676bb25abc2f9e7f3656c57ace0cf2c"
+    "url": "assets/js/vendors~page--src--templates--post-vue.59312669.js",
+    "revision": "c9965fa91a8931b8c997d8b294d8b969"
   },
   {
     "url": "assets/static/danvega-avatar.1b1e47a.faaaa00.png",
@@ -187,27 +187,27 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page/index.html",
-    "revision": "9acad6ddbc9c11caafdaa8ecbb44b412"
+    "revision": "07c303fcad406b1e84c675141c01447d"
   },
   {
     "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql/index.html",
-    "revision": "69a674b8d405573a541ab2e337f571e5"
+    "revision": "6d541e2d6920871c043e77de9cd7fb33"
   },
   {
     "url": "blog/index.html",
-    "revision": "6f50593a43fe1214266eeaec5f3ccfe7"
+    "revision": "2e3281055a5925cbf1cc37efd43ef492"
   },
   {
     "url": "books/index.html",
-    "revision": "4707fadfe0b1e98a054a983a839e4c54"
+    "revision": "81e66d7ab89034dd4417bff719b5d874"
   },
   {
     "url": "courses/index.html",
-    "revision": "cdf53fe7bafb459e7965d4e0a50a0b2d"
+    "revision": "db0bb863c3b13df102dbd2fa15018a8e"
   },
   {
     "url": "courses/intro-to-vue/signup/index.html",
-    "revision": "6da8d1443f6dacbf1ecf1587db429493"
+    "revision": "be1362795b5b425cfef50b4d4a75551d"
   },
   {
     "url": "images/danvega_dev_cover.png",
@@ -215,7 +215,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "86d2928f264ba5d060c9dc4fe99990e4"
+    "revision": "a91182b08dcf136c159b5d7d12051f0d"
   },
   {
     "url": "manifest.json",
@@ -223,27 +223,27 @@ self.__precacheManifest = [
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01/index.html",
-    "revision": "0e47ba8482a74a14e2a0ea4e3869daa4"
+    "revision": "9c830e2267416db520e9933e7ac30f72"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02/index.html",
-    "revision": "c0fe5444086b3f9e11b09ceb0923df34"
+    "revision": "2ec9e945af761c6b072a95e853cd714a"
   },
   {
     "url": "newsletter/2019/08/11/coffee-and-code-03/index.html",
-    "revision": "8657e1f6e6bec3b1da050ee5eee0d56b"
+    "revision": "1bab66c029558a122db9f9f5d92c04e7"
   },
   {
     "url": "newsletter/2019/08/18/coffee-and-code-04/index.html",
-    "revision": "2e142aace18c87113c076b843291e509"
+    "revision": "6536f9d65f60c3535eca7f9cd22b6ba0"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05/index.html",
-    "revision": "dbb7bcd57db76be6f2e5617ebab55368"
+    "revision": "291eba18e9f5f1e8ce903dfa7e4f3078"
   },
   {
     "url": "projects/index.html",
-    "revision": "1a38aae36b7b07a2d66991223dc48b73"
+    "revision": "9d8f79dc14afb52f450f0c70f81ac6f6"
   },
   {
     "url": "search.json",
@@ -251,31 +251,31 @@ self.__precacheManifest = [
   },
   {
     "url": "signup/index.html",
-    "revision": "b294628569d4e217b2129a5fc65170c7"
+    "revision": "7653914e2e4fa89935155c3447b46f60"
   },
   {
     "url": "speaking/index.html",
-    "revision": "1bec4993f59050186e4c62b00a2d344a"
+    "revision": "1990a69a1653d0692b534cf76438f4de"
   },
   {
     "url": "subscribe-thank-you/index.html",
-    "revision": "3e904b01739a76b404e0ebc342e186a2"
+    "revision": "d1d8a14b7bed2b3bebbb403aefd41e1b"
   },
   {
     "url": "tag/gatsby/index.html",
-    "revision": "3fa2c66fdc2a8faf4fe0f804a77ed4f3"
+    "revision": "422dfe6e086e562e5c5d09536d2983fd"
   },
   {
     "url": "tag/hexo/index.html",
-    "revision": "7837cccbc246d6901ab6d2451a41f372"
+    "revision": "cefa97eeabcd4c9319287cba80d5286f"
   },
   {
     "url": "tag/tutorial/index.html",
-    "revision": "f34f720aca61632ce3b73c6fc40df1d7"
+    "revision": "af2087640ca2759a88a978e348728770"
   },
   {
     "url": "work/index.html",
-    "revision": "a986802a2c43546d0b9e983782e480f1"
+    "revision": "a4183b292c81a996ee02a4b8d210c4b9"
   },
   {
     "url": "404",
@@ -322,24 +322,32 @@ self.__precacheManifest = [
     "revision": "4ea7a794e4d7b7503ac520689daeb20b"
   },
   {
-    "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql",
-    "revision": "dee46eede77504155e1ef04c0686bd88"
+    "url": "tag/gatsby",
+    "revision": "ffa747b40d7f5bf7760be47f3ad7af4a"
+  },
+  {
+    "url": "newsletter/2019/08/11/coffee-and-code-03",
+    "revision": "89904d45eefd2699b94cd2b08e9341af"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02",
     "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
   },
   {
-    "url": "newsletter/2019/08/18/coffee-and-code-04",
-    "revision": "ce4b46a36bf842937b09b583bffe05f0"
+    "url": "newsletter/2019/08/25/coffee-and-code-05",
+    "revision": "88fc86f6188e4a9d2dab7c3e48628af4"
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01",
     "revision": "b49274c04385441f07bbd8919ad02a3a"
   },
   {
-    "url": "newsletter/2019/08/11/coffee-and-code-03",
-    "revision": "89904d45eefd2699b94cd2b08e9341af"
+    "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page",
+    "revision": "e11b72d4f779e2f41cf52ac0c02d82a4"
+  },
+  {
+    "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql",
+    "revision": "dee46eede77504155e1ef04c0686bd88"
   },
   {
     "url": "tag/tutorial",
@@ -350,16 +358,8 @@ self.__precacheManifest = [
     "revision": "3145fc0127a73296c1fe966a14fdcbee"
   },
   {
-    "url": "tag/gatsby",
-    "revision": "ffa747b40d7f5bf7760be47f3ad7af4a"
-  },
-  {
-    "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page",
-    "revision": "e11b72d4f779e2f41cf52ac0c02d82a4"
-  },
-  {
-    "url": "newsletter/2019/08/25/coffee-and-code-05",
-    "revision": "88fc86f6188e4a9d2dab7c3e48628af4"
+    "url": "newsletter/2019/08/18/coffee-and-code-04",
+    "revision": "ce4b46a36bf842937b09b583bffe05f0"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
