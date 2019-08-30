@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "91b31f44b1afcac20bd2e3047ad86a94"
+    "revision": "4978b1ad19dfcf0d62f6ae339a9bbfe8"
   },
   {
     "url": "404/index.html",
-    "revision": "91b31f44b1afcac20bd2e3047ad86a94"
+    "revision": "4978b1ad19dfcf0d62f6ae339a9bbfe8"
   },
   {
     "url": "about/index.html",
-    "revision": "4e1ec1675644c885282eb22f5c6e781c"
+    "revision": "16884e1ce635cf8ed21b10c9fad8cfaa"
   },
   {
-    "url": "assets/css/0.styles.7cc994bd.css",
-    "revision": "5d687b761e3c21335fff704b293dfc24"
+    "url": "assets/css/0.styles.96b281cd.css",
+    "revision": "4a84a4914e1180ab0f2688f60f9e5ba7"
   },
   {
     "url": "assets/data/1/0098f323.json",
@@ -58,24 +58,20 @@ self.__precacheManifest = [
     "revision": "83867e325679960537d76f14ab83d08e"
   },
   {
+    "url": "assets/data/1/4bb9c99d.json",
+    "revision": "f55bc1fb39db53bcaca55489a7c73b69"
+  },
+  {
+    "url": "assets/data/1/518dda1f.json",
+    "revision": "9e956236b40fe20fe2b8d1ad3b2fe337"
+  },
+  {
     "url": "assets/data/1/63707845.json",
     "revision": "f5bc8a048b5aeeb9be85508ba67bc605"
   },
   {
-    "url": "assets/data/1/7c41e498.json",
-    "revision": "4d97e991128714a9d13c97a6d9822bf6"
-  },
-  {
     "url": "assets/data/1/7f809913.json",
     "revision": "da1de44e7c4710018f14c3eb04e40664"
-  },
-  {
-    "url": "assets/data/1/81926f4a.json",
-    "revision": "3bc8f40e269ae64c53477afe20a6e92d"
-  },
-  {
-    "url": "assets/data/1/94ff6f00.json",
-    "revision": "715d595815003dffe5936c1697a0c692"
   },
   {
     "url": "assets/data/1/ab0c29d6.json",
@@ -90,6 +86,10 @@ self.__precacheManifest = [
     "revision": "4f0a0671fed3ed92992cc35945f3d0f1"
   },
   {
+    "url": "assets/data/1/f327b690.json",
+    "revision": "7b44bed882485e9451e6f2fee3b6636b"
+  },
+  {
     "url": "assets/img/course_signup_bg.d6ef0948.png",
     "revision": "d6ef09483257c93c3b48ca94a6da23db"
   },
@@ -98,16 +98,16 @@ self.__precacheManifest = [
     "revision": "7ac66437c5d870ab9e2a1acadc02154d"
   },
   {
-    "url": "assets/js/app.072a8acb.js",
-    "revision": "71011caf9f589491f5fbe6966ce3fe59"
+    "url": "assets/js/app.01b2b61b.js",
+    "revision": "e4565455a5aa43d76bca94c5e39a91a3"
   },
   {
-    "url": "assets/js/page--src--pages--404-vue.0cea4224.js",
-    "revision": "9bbe2a60b12d15cf2ecb2f23939f4e88"
+    "url": "assets/js/page--src--pages--404-vue.5186fd28.js",
+    "revision": "8da04059748dbcab63382c4113b281e7"
   },
   {
-    "url": "assets/js/page--src--pages--about-vue.08eb8655.js",
-    "revision": "20a87b47cdd947ab60012f5fe61954e4"
+    "url": "assets/js/page--src--pages--about-vue.d9c0980b.js",
+    "revision": "98af8fbcd3a5ded41eba8c0d6a45039e"
   },
   {
     "url": "assets/js/page--src--pages--blog-vue.2feebcfe.js",
@@ -122,8 +122,8 @@ self.__precacheManifest = [
     "revision": "d0ee1be332592ca8433b1f8c96423ed2"
   },
   {
-    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.561cad2f.js",
-    "revision": "83f926a93d8ee2f09b5bf40523c749bd"
+    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.7b213273.js",
+    "revision": "ff8519eb3423d6209eb220788126f908"
   },
   {
     "url": "assets/js/page--src--pages--index-vue.670608f9.js",
@@ -150,20 +150,20 @@ self.__precacheManifest = [
     "revision": "dddf26a03b4a9f7e7a0c6721784344e3"
   },
   {
-    "url": "assets/js/page--src--templates--newsletter-vue.aa84442e.js",
-    "revision": "26b8dd346fdaf3d8c90957d1f2a5a539"
+    "url": "assets/js/page--src--templates--newsletter-vue.2801601c.js",
+    "revision": "e345df1f702b09be7b01c309ba36f956"
   },
   {
-    "url": "assets/js/page--src--templates--post-vue.130a87d5.js",
-    "revision": "9e0926ec3142f729a852e6ee3fd7c106"
+    "url": "assets/js/page--src--templates--post-vue.2cc8ef97.js",
+    "revision": "de8dcbee686e966d85cd1e68127f9dfa"
   },
   {
-    "url": "assets/js/page--src--templates--tag-vue.51967e23.js",
-    "revision": "9a527542a45696ab16173d9cefa4e24a"
+    "url": "assets/js/page--src--templates--tag-vue.ec243f6e.js",
+    "revision": "3f2562054774dcbd47c96e6165fc6f6b"
   },
   {
-    "url": "assets/js/vendors~page--src--templates--post-vue.59312669.js",
-    "revision": "c9965fa91a8931b8c997d8b294d8b969"
+    "url": "assets/js/vendors~page--src--templates--post-vue.fedeac33.js",
+    "revision": "c676bb25abc2f9e7f3656c57ace0cf2c"
   },
   {
     "url": "assets/static/danvega-avatar.1b1e47a.faaaa00.png",
@@ -187,27 +187,27 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page/index.html",
-    "revision": "1e907913c4545f870496a0c007474bed"
+    "revision": "4b22e02f5807856a6cd266037f95ef5f"
   },
   {
     "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql/index.html",
-    "revision": "0f447448e1c8623d4c596b4a7e4b92cb"
+    "revision": "2e265e847cd69a32afaba499f5657868"
   },
   {
     "url": "blog/index.html",
-    "revision": "768efec069b980516ed6b03d4c789ed0"
+    "revision": "c1efca2eaf8984fc4795e1ca4cc14166"
   },
   {
     "url": "books/index.html",
-    "revision": "11934a459170f86cfde33036d4ab5e09"
+    "revision": "b8db7b13bf047c8f4eeab695303e9641"
   },
   {
     "url": "courses/index.html",
-    "revision": "2f14693b182f42c0e94c4acc6decd764"
+    "revision": "b049d711474ed060132cff1dd7c3e934"
   },
   {
     "url": "courses/intro-to-vue/signup/index.html",
-    "revision": "63e672d8dcaf4a740e0bc7ef1a3e4b65"
+    "revision": "c38821a68c2347aeb6aafd6b3c8f3237"
   },
   {
     "url": "images/danvega_dev_cover.png",
@@ -215,67 +215,67 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1c60061a2991d736a2e6b17d1a6d54a6"
+    "revision": "46ef00366ca217a60dca7810018a3c83"
   },
   {
     "url": "manifest.json",
-    "revision": "7e19d6042fb6c7fff1bdc69c9d6d1969"
+    "revision": "0f079cd33be5138c0831090f6f9f94e6"
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01/index.html",
-    "revision": "36f5aa31e808e9722ca98de1d4165460"
+    "revision": "fdb68c9fbdc5c182d3137dc8ff2ba5a6"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02/index.html",
-    "revision": "553431876bf4685925acb4bc2fb5090f"
+    "revision": "84f56dd69dc7ef1e4ae4dbc575d9f1d2"
   },
   {
     "url": "newsletter/2019/08/11/coffee-and-code-03/index.html",
-    "revision": "41f81536ea4f49db1f4d1251a7a5f9c6"
+    "revision": "faaca2defd7ca14c31ef2dbf6cd00c6b"
   },
   {
     "url": "newsletter/2019/08/18/coffee-and-code-04/index.html",
-    "revision": "09616b18171d6f9a064980a7620b4e75"
+    "revision": "341135b23a0e8c760d6966eaaf1a3be8"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05/index.html",
-    "revision": "cfdfa40b39475535d125f8421ffa3149"
+    "revision": "983ffa0237e420f499b46fa4589a2c3f"
   },
   {
     "url": "projects/index.html",
-    "revision": "beb21c74dd007ad4f3a59df3f6f271f7"
+    "revision": "a14955c2c9c10a623e4c7cf41a50d4f6"
   },
   {
     "url": "search.json",
-    "revision": "e7d62fa069435526a393d6e014193252"
+    "revision": "d2c61b9761aceb8daee2fa68062f480e"
   },
   {
     "url": "signup/index.html",
-    "revision": "e7ddc5f29b50c6739340b0f82450972b"
+    "revision": "b689a6e76e63d3a59904e8e80502c4d9"
   },
   {
     "url": "speaking/index.html",
-    "revision": "e449f336b562d0bcc1d4ec72e9f06c08"
+    "revision": "4dc0d27bc9f9265298d6a1bab7b4317c"
   },
   {
     "url": "subscribe-thank-you/index.html",
-    "revision": "9268a857763e45d045d7477fdcc8eab7"
+    "revision": "92c661db70319f3d44493b7c0f4fb5f3"
   },
   {
     "url": "tag/gatsby/index.html",
-    "revision": "a058056786dbfc211f28f4ef845d9534"
+    "revision": "e254ab4d5ee3c065ea78567fae00e8d0"
   },
   {
     "url": "tag/hexo/index.html",
-    "revision": "c631a5b2f5de464741fdf36307cd9fbe"
+    "revision": "a6f5fd57cc3f2a741d6328d11aaebdac"
   },
   {
     "url": "tag/tutorial/index.html",
-    "revision": "aca650a2429f4d87cbb00208dae667a6"
+    "revision": "9407c1b1ea1d9ee143cc76ec9003be03"
   },
   {
     "url": "work/index.html",
-    "revision": "23f7219b1e4ceefaa5cc655f0a7a6066"
+    "revision": "957567d885ce46a1f5bf6e772cc34743"
   },
   {
     "url": "404",
@@ -310,20 +310,20 @@ self.__precacheManifest = [
     "revision": "aa78749d96f9d6b64ca701798e5ff8b7"
   },
   {
-    "url": "courses",
-    "revision": "1a76532d6ea387b255a790f767e744b0"
-  },
-  {
     "url": "work",
     "revision": "b13c661c9a7c63e0b68e8e5f23d228c4"
+  },
+  {
+    "url": "courses",
+    "revision": "1a76532d6ea387b255a790f767e744b0"
   },
   {
     "url": "blog",
     "revision": "4ea7a794e4d7b7503ac520689daeb20b"
   },
   {
-    "url": "tag/gatsby",
-    "revision": "ffa747b40d7f5bf7760be47f3ad7af4a"
+    "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page",
+    "revision": "e11b72d4f779e2f41cf52ac0c02d82a4"
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01",
@@ -334,20 +334,16 @@ self.__precacheManifest = [
     "revision": "ce4b46a36bf842937b09b583bffe05f0"
   },
   {
-    "url": "newsletter/2019/08/04/coffee-and-code-02",
-    "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
-  },
-  {
     "url": "newsletter/2019/08/11/coffee-and-code-03",
     "revision": "89904d45eefd2699b94cd2b08e9341af"
   },
   {
-    "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page",
-    "revision": "e11b72d4f779e2f41cf52ac0c02d82a4"
+    "url": "newsletter/2019/08/04/coffee-and-code-02",
+    "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
   },
   {
-    "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql",
-    "revision": "dee46eede77504155e1ef04c0686bd88"
+    "url": "tag/gatsby",
+    "revision": "ffa747b40d7f5bf7760be47f3ad7af4a"
   },
   {
     "url": "tag/tutorial",
@@ -356,6 +352,10 @@ self.__precacheManifest = [
   {
     "url": "tag/hexo",
     "revision": "3145fc0127a73296c1fe966a14fdcbee"
+  },
+  {
+    "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql",
+    "revision": "dee46eede77504155e1ef04c0686bd88"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05",
