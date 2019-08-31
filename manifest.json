@@ -1,39 +1,39 @@
 {
-  "name": "Gridsome",
-  "short_name": "Gridsome",
+  "name": "Ricky Januari",
+  "short_name": "RJ",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#666600",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "assets/static/blog-hexo.1b91758.7330f5c.webp",
-      "sizes": "480x210",
-      "type": "image/webp"
-    },
-    {
-      "src": "assets/static/blog-hexo.36a08ae.7330f5c.webp",
-      "sizes": "640x280",
-      "type": "image/webp"
-    },
-    {
       "src": "assets/static/danvega-avatar.1b1e47a.faaaa00.png",
       "sizes": "80x113",
       "type": "image/png"
     },
     {
-      "src": "assets/static/danvega-favicon.ac8d93a.71269ae.png",
+      "src": "assets/static/favicon.ac8d93a.cc48857.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "assets/static/danvega-favicon.ce0531f.71269ae.png",
+      "src": "assets/static/favicon.b9532cc.cc48857.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/static/favicon.ce0531f.cc48857.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
+      "src": "assets/static/favicon.f22e9f3.cc48857.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
       "src": "assets/static/favicon.png",
-      "sizes": "32x32",
+      "sizes": "96x96",
       "type": "image/png"
     },
     {
