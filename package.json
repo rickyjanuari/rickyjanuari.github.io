@@ -1,5 +1,5 @@
 {
-  "name": "danvega-me",
+  "name": "rickyjanuari",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -7,7 +7,7 @@
     "explore": "gridsome explore",
     "newpost": "node ./scripts/newpost.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gridsome build && gh-pages -d dist -b master"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",

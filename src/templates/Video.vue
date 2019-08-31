@@ -1,34 +1,32 @@
 <template>
   <Layout>
     <div class="article content">
-      <h1 class="title is-2 article-title">{{ $page.post.title }}</h1>
-      <small class="about">{{ formatCreatedOn }} • ☕️ {{ $page.post.timeToRead }} min read</small>
-      <div class="embed-container" v-if="$page.post.video">
+      <div class="embed-container" v-if="$page.video.video">
         <iframe
           width="1000"
           height="563"
-          :src="$page.post.video"
+          :src="$page.video.video"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          v-if="$page.post.video"
+          v-if="$page.video.video"
         ></iframe>
       </div>
-      <g-image v-if="!$page.post.video && $page.post.cover" :src="$page.post.cover" class="cover" />
-      <article v-html="$page.post.content" class="article" />
-      <bulma-tag :tags="$page.post.tags" />
-      <!-- <convert-kit uid="44cc02ed05" script="https://f.convertkit.com/44cc02ed05/38739557e4.js"></convert-kit> -->
+      <h1 class="title is-2 article-title">{{ $page.video.title }}</h1>
+      
+      <article v-html="$page.video.content" class="article" />
+      <bulma-tag :tags="$page.video.tags" />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Post ($path: String!) {
-  post: post (path: $path) {
+query Video ($path: String!) {
+  video: video (path: $path) {
     title
     content
     timeToRead
-    cover
+    video
     slug
     date
     excerpt
@@ -55,29 +53,29 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
+      title: this.$page.video.title,
       meta: [
-        { name: "description", content: this.$page.post.excerpt },
+        { name: "description", content: this.$page.video.excerpt },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:description", content: this.$page.post.excerpt },
-        { name: "twitter:title", content: this.$page.post.title },
+        { name: "twitter:description", content: this.$page.video.excerpt },
+        { name: "twitter:title", content: this.$page.video.title },
         { name: "twitter:site", content: "@therealdanvega" },
         { name: "twitter:image", content: this.getCoverImage },
         { name: "twitter:creator", content: "@therealdanvega" },
 
         { property: "og:type", content: "article" },
-        { property: "og:title", content: this.$page.post.title },
-        { property: "og:description", content: this.$page.post.excerpt },
+        { property: "og:title", content: this.$page.video.title },
+        { property: "og:description", content: this.$page.video.excerpt },
         {
           property: "og:url",
-          content: `${this.getBaseUrl}${this.$page.post.path}`
+          content: `${this.getBaseUrl}${this.$page.video.path}`
         },
         {
           property: "article:published_time",
-          content: moment(this.$page.post.date).format("MM-DD-YYYY")
+          content: moment(this.$page.video.date).format("MM-DD-YYYY")
         },
-        { property: "og:updated_time", content: this.$page.post.date },
+        { property: "og:updated_time", content: this.$page.video.date },
         { property: "og:image", content: this.getCoverImage },
         { property: "og:image:secure_url", content: this.getCoverImage }
       ],
@@ -86,16 +84,16 @@ export default {
   },
   computed: {
     formatCreatedOn() {
-      const formattedDate = moment(this.$page.post.date).format(
+      const formattedDate = moment(this.$page.video.date).format(
         "MMMM DD, YYYY"
       );
       return formattedDate;
     },
     getCoverImage() {
       let coverImage = "";
-      const cover = this.$page.post.cover;
+      const cover = this.$page.video.cover;
       if (cover != null) {
-        coverImage = `${this.getBaseUrl}${this.$page.post.cover.src}`;
+        coverImage = `${this.getBaseUrl}${this.$page.video.cover.src}`;
       }
       return coverImage;
     },

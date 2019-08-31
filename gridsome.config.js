@@ -57,6 +57,34 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'video/**/*.md',
+        typeName: 'Video',
+        route: '/video/:slug',
+        refs: {
+          tags: {
+            typeName: 'VideoTag',
+            route: '/video/tag/:slug',
+            create: true
+          }
+        },
+        resolveAbsolutePaths: true,
+        remark: {
+          autolinkClassName: 'fas fa-hashtag',
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+          plugins: [
+            ['gridsome-plugin-remark-shiki', {
+              theme: 'nord'
+            }],
+            ['gridsome-plugin-remark-twitter', {}],
+            ['gridsome-plugin-remark-codesandbox', {}]
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'newsletter/**/*.md',
         typeName: 'Newsletter',
         route: '/newsletter/:year/:month/:day/:slug',
@@ -92,11 +120,40 @@ module.exports = {
       }
     },
     {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Video',
+        feedOptions: {
+          title: 'Ricky Januari',
+          feed_url: 'https://rickyjanuari.github.io/rss.xml',
+          site_url: 'https://rickyjanuari.github.io'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.excerpt,
+          url: getVideoURL(node.slug),
+          author: node.author,
+          date: node.date,
+          custom_elements: [{
+            published: node.date.toString(),
+          }, ]
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
         config: {
           '/blog/*': {
+            changefreq: 'daily',
+            priority: 0.5
+          },
+          '/video/*': {
             changefreq: 'daily',
             priority: 0.5
           }
@@ -118,4 +175,8 @@ function getPostURL(date, slug) {
   const month = `${createdOn.getMonth() + 1 < 10 ? "0" : ""}${createdOn.getMonth() + 1}`
   const day = `${createdOn.getDate() < 10 ? "0" : ""}${createdOn.getDate()}`
   return `https://rickyjanuari.github.io/blog/${year}/${month}/${day}/${slug}`;
+}
+
+function getVideoURL(slug) {
+  return `https://rickyjanuari.github.io/video/${slug}`;
 }

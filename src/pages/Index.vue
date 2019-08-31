@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <!-- <div class="content">
+    <div class="content">
       <div class="columns is-centered">
         <div class="column">
           <g-image src="../assets/img/ricky.jpeg" class="avatar" alt="Dan Vega Avatar" />
@@ -12,24 +12,24 @@
             class="intro"
           >Front-end Developer and Blogger, based in Bandung, Indonesia.</p>
           
-          <p class="subscribe">Subscribe to get my weekly newsletter and latest articles.</p>
-          <convertkit uid="e6035d0111" script="https://f.convertkit.com/e6035d0111/99c16f05bd.js" />
+          <!-- <p class="subscribe">Subscribe to get my weekly newsletter and latest articles.</p>
+          <convertkit uid="e6035d0111" script="https://f.convertkit.com/e6035d0111/99c16f05bd.js" /> -->
         </div>
       </div>
-    </div> -->
-    <h2 class="title is-3">Recent Blog Posts</h2>
+    </div>
+    <!-- <h2 class="title is-3">Recent Blog Posts</h2>
     <div class="posts">
       <div v-for="post in $page.recentPosts.edges" :key="post.node.id" class="post">
         <g-link :to="post.node.path" :aria-label="post.node.title">
           <div class="overlay"></div>
-          <g-image :src="post.node.cover.src" class="post-img" :alt="post.node.title" />
+          <g-image :src="post.node.cover" class="post-img" :alt="post.node.title" />
           <div class="post-details fadeIn-bottom">
             <h3 class="post-title">{{ post.node.title }}</h3>
             <p class="post-text">{{ post.node.date }} • ☕️ {{ post.node.timeToRead }} min read</p>
           </div>
         </g-link>
       </div>
-    </div>
+    </div> -->
   </Layout>
 </template>
 
