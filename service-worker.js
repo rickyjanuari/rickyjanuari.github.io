@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d194258cac69b19a5ca508a9e96a6bb4"
+    "revision": "b1c3f6ab75c7c747221a41f8b48c7ca2"
   },
   {
     "url": "404/index.html",
-    "revision": "d194258cac69b19a5ca508a9e96a6bb4"
+    "revision": "b1c3f6ab75c7c747221a41f8b48c7ca2"
   },
   {
     "url": "about/index.html",
-    "revision": "65726b8e9f1a9ff56e855ccdc67f415d"
+    "revision": "8cf9cfc0dbea6198edc93ba2dcb59df5"
   },
   {
     "url": "assets/css/0.styles.f8cb3f4b.css",
@@ -70,8 +70,8 @@ self.__precacheManifest = [
     "revision": "f46e37119efa8f43960c6312355e8c01"
   },
   {
-    "url": "assets/data/1/5d8b93ac.json",
-    "revision": "4699a81774d4cdd669d0893d049635b1"
+    "url": "assets/data/1/5c78c286.json",
+    "revision": "76bbd156fd6d7bb1c2543a2c4b869a0a"
   },
   {
     "url": "assets/data/1/63707845.json",
@@ -82,12 +82,12 @@ self.__precacheManifest = [
     "revision": "39aab457e206e1b068b80719872680fa"
   },
   {
-    "url": "assets/data/1/7f809913.json",
-    "revision": "da1de44e7c4710018f14c3eb04e40664"
+    "url": "assets/data/1/79c4e00b.json",
+    "revision": "b25eb154c57f65f0aee7d26565ab5837"
   },
   {
-    "url": "assets/data/1/9abd39a8.json",
-    "revision": "c35f58868969c80cd151fb9eab31019b"
+    "url": "assets/data/1/7f809913.json",
+    "revision": "da1de44e7c4710018f14c3eb04e40664"
   },
   {
     "url": "assets/data/1/ab0c29d6.json",
@@ -114,8 +114,8 @@ self.__precacheManifest = [
     "revision": "7ac66437c5d870ab9e2a1acadc02154d"
   },
   {
-    "url": "assets/js/app.0648eac9.js",
-    "revision": "dcf1c19cd6b71190539eb1713d48403f"
+    "url": "assets/js/app.41b7e760.js",
+    "revision": "2ed5c07a5c8095171b1276e00b9df30a"
   },
   {
     "url": "assets/js/page--src--pages--404-vue.2335f681.js",
@@ -138,12 +138,12 @@ self.__precacheManifest = [
     "revision": "b4bbee705330fb5512d56b865e0bd349"
   },
   {
-    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.c846d76b.js",
-    "revision": "4d253136285de0ab7aa58adac4c421db"
+    "url": "assets/js/page--src--pages--courses--intro-to-vue--signup-vue.535f4c12.js",
+    "revision": "57bfe9b6c3b106649c24a95e098442be"
   },
   {
-    "url": "assets/js/page--src--pages--index-vue.d88b2f2b.js",
-    "revision": "d8904f26eeb7b078db117f4e6a2ffb6d"
+    "url": "assets/js/page--src--pages--index-vue.54f443b9.js",
+    "revision": "21cc54c1949957c2f4494f4cba18e449"
   },
   {
     "url": "assets/js/page--src--pages--projects-vue.96286c2c.js",
@@ -170,12 +170,12 @@ self.__precacheManifest = [
     "revision": "8693bebda22b48e274b07c1d5b509e68"
   },
   {
-    "url": "assets/js/page--src--templates--newsletter-vue.7026eee6.js",
-    "revision": "bab2dbe6f8d8d2bcf3ea66933c73f7c5"
+    "url": "assets/js/page--src--templates--newsletter-vue.9e67fe39.js",
+    "revision": "181557c5d0b8b0f254cb0db5b0735f3c"
   },
   {
-    "url": "assets/js/page--src--templates--post-vue.980219cc.js",
-    "revision": "ba7c5cf4464dd9242dc508425a19505c"
+    "url": "assets/js/page--src--templates--post-vue.d5b28fa6.js",
+    "revision": "d0d0bd0a1067c698c1cb08d74142dc16"
   },
   {
     "url": "assets/js/page--src--templates--tag-vue.c670d1dd.js",
@@ -215,31 +215,31 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page/index.html",
-    "revision": "e1a29b7896868e9edc4b19552b7ea3e8"
+    "revision": "a8d835ebe1d6c6d9d0d916dfcf92a709"
   },
   {
     "url": "blog/2019/08/08/react-native-tutorial-home-ui-youtube-app-only-ui/index.html",
-    "revision": "670c4cf87c2d8e390ae77316a61fdc1f"
+    "revision": "77ad892f98af848100c79073cc95193e"
   },
   {
     "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql/index.html",
-    "revision": "9673c202bfa20a166dcadcba33befb51"
+    "revision": "33c764c6620914b0c5e4cf74133c21f7"
   },
   {
     "url": "blog/index.html",
-    "revision": "7240454d87b08cdbfa18632f0a4af253"
+    "revision": "dc8fd34170f404683711325e1ef4f225"
   },
   {
     "url": "books/index.html",
-    "revision": "2f16a1da0aeff9ea60180728e72943c8"
+    "revision": "43e89c0639ff4141cfdf8e8e8d8465a6"
   },
   {
     "url": "courses/index.html",
-    "revision": "4dc96d5eb43ef5ea0ff82ddbc84dd85f"
+    "revision": "29ef4491727fefb0c5af2fd1def9091d"
   },
   {
     "url": "courses/intro-to-vue/signup/index.html",
-    "revision": "160a411903f5ded965d8f6b2c94d76bd"
+    "revision": "a9afa43b6a874a26756d446541c38c80"
   },
   {
     "url": "images/danvega_dev_cover.png",
@@ -247,7 +247,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6eb9b2c8888c065b2e0dca244fc66000"
+    "revision": "be437fbf0dd13089e62d262d07b8e38d"
   },
   {
     "url": "manifest.json",
@@ -255,27 +255,27 @@ self.__precacheManifest = [
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01/index.html",
-    "revision": "ab9852de8c43ffb76f555cd57c715aaa"
+    "revision": "74508f50c94f4203ad60462f31ea7218"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02/index.html",
-    "revision": "5313cf2ee580bbd9447ac99238b316f5"
+    "revision": "f83ddee2ba656e853bdcb543d9eb89c6"
   },
   {
     "url": "newsletter/2019/08/11/coffee-and-code-03/index.html",
-    "revision": "fa67824ab2f72bf15806f37d6b137722"
+    "revision": "18113a44dbaabba27bea9eed28535b65"
   },
   {
     "url": "newsletter/2019/08/18/coffee-and-code-04/index.html",
-    "revision": "69fc5eed8561d0a091a97acd067412e1"
+    "revision": "84179609a7fce831b7ddefab8ec256da"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05/index.html",
-    "revision": "f1f45ce586bd515b3d71ee53308f428c"
+    "revision": "50fb28569821bfca0c4c32ed1c27ca52"
   },
   {
     "url": "projects/index.html",
-    "revision": "53c94d5633a1a372e126d1e3e9af3036"
+    "revision": "51cdb14d1fdb37c202a6a943a99aae58"
   },
   {
     "url": "search.json",
@@ -283,43 +283,43 @@ self.__precacheManifest = [
   },
   {
     "url": "signup/index.html",
-    "revision": "1f39e7e870fa6073b8dc1c43a64c8b09"
+    "revision": "20c1781520101af7699c739f772ebf33"
   },
   {
     "url": "speaking/index.html",
-    "revision": "38c654b8a244f47e20c90d02fd93598c"
+    "revision": "54858cc176136db08a06feca6644ef1b"
   },
   {
     "url": "subscribe-thank-you/index.html",
-    "revision": "fb9ef750ba9581223afffae806afb07c"
+    "revision": "5406b573911844b49d7d173658e89a73"
   },
   {
     "url": "tag/gatsby/index.html",
-    "revision": "16d4f7d7d81e5cb7f709e39f50d822f7"
+    "revision": "dcfeda400344d9273726858ff8bd5210"
   },
   {
     "url": "tag/hexo/index.html",
-    "revision": "ecdea0aa71bab39bb9bf614b8dd7f6e2"
+    "revision": "13ad33ce1619724d792dc76ce94f3d5e"
   },
   {
     "url": "tag/react-native/index.html",
-    "revision": "4794be139662fa2e0bd2ab49287e87a2"
+    "revision": "8190e7eb63573706e89b1ac94e72e87f"
   },
   {
     "url": "tag/speed-coding/index.html",
-    "revision": "12b139b93f10cba7aad763d9f13b029e"
+    "revision": "601e1ed8ff32bc281e051946173bdcaa"
   },
   {
     "url": "tag/tutorial/index.html",
-    "revision": "e25adfd16dc0529b7c0fc870ab0e8fca"
+    "revision": "cc721ee588473debe3a2ed801aa67f25"
   },
   {
     "url": "video/index.html",
-    "revision": "c828da7c2b0515ac399c07e75afc8c1b"
+    "revision": "500e64a76d30a059991fb0cf5cf63f45"
   },
   {
     "url": "work/index.html",
-    "revision": "a549c8c436e404c5ff8fd53b58ab0ea9"
+    "revision": "1b153426d233e910f6f46e7d4109cceb"
   },
   {
     "url": "404",
@@ -374,12 +374,12 @@ self.__precacheManifest = [
     "revision": "46720c0641c9f082ef3a58ff79f859c1"
   },
   {
-    "url": "newsletter/2019/08/11/coffee-and-code-03",
-    "revision": "89904d45eefd2699b94cd2b08e9341af"
-  },
-  {
     "url": "newsletter/2019/07/28/coffee-and-code-01",
     "revision": "b49274c04385441f07bbd8919ad02a3a"
+  },
+  {
+    "url": "newsletter/2019/08/18/coffee-and-code-04",
+    "revision": "ce4b46a36bf842937b09b583bffe05f0"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02",
@@ -418,8 +418,8 @@ self.__precacheManifest = [
     "revision": "033993b7ef4bfb9463d965636fb3af58"
   },
   {
-    "url": "newsletter/2019/08/18/coffee-and-code-04",
-    "revision": "ce4b46a36bf842937b09b583bffe05f0"
+    "url": "newsletter/2019/08/11/coffee-and-code-03",
+    "revision": "89904d45eefd2699b94cd2b08e9341af"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
