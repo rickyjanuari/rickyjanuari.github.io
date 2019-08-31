@@ -5,26 +5,25 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Dan Vega",
-  siteUrl: "https://www.danvega.dev",
-  siteDescription: "Person blog of Dan Vega",
-  icon: "src/img/danvega-favicon.png",
-  siteUrl: 'https://rickyjanuari.github.io',
+  siteName: "Ricky Januari",
+  siteUrl: "https://rickyjanuari.github.io",
+  siteDescription: "Person blog of Ricky Januari",
+  icon: "src/img/favicon.png",
   pathPrefix: '',
   plugins: [
       {
         use: 'gridsome-plugin-pwa',
         options: {
-            title: 'Gridsome',
+            title: 'Ricky Januari',
             startUrl: '/',
             display: 'standalone',
             statusBarStyle: 'default',
             manifestPath: 'manifest.json',
             serviceWorkerPath: 'service-worker.js',
-            shortName: 'Gridsome',
+            shortName: 'RJ',
             themeColor: '#666600',
             backgroundColor: '#ffffff',
-            icon: 'src/img/danvega-favicon.png' // must be supplied!
+            icon: 'src/img/favicon.png' // must be supplied!
         }
     },
     {
@@ -72,9 +71,9 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Dan Vega',
-          feed_url: 'https://danvega.dev/rss.xml',
-          site_url: 'https://danvega.dev'
+          title: 'Ricky Januari',
+          feed_url: 'https://rickyjanuari.github.io/rss.xml',
+          site_url: 'https://rickyjanuari.github.io'
         },
         feedItemOptions: node => ({
           title: node.title,
@@ -118,5 +117,5 @@ function getPostURL(date, slug) {
   const year = createdOn.getFullYear()
   const month = `${createdOn.getMonth() + 1 < 10 ? "0" : ""}${createdOn.getMonth() + 1}`
   const day = `${createdOn.getDate() < 10 ? "0" : ""}${createdOn.getDate()}`
-  return `https://www.danvega.dev/blog/${year}/${month}/${day}/${slug}`;
+  return `https://rickyjanuari.github.io/blog/${year}/${month}/${day}/${slug}`;
 }
