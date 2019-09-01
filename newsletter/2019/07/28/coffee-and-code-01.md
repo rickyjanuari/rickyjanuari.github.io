@@ -4,7 +4,7 @@ slug: 'coffee-and-code-01'
 date: '2019-07-28T08:00:00.000Z'
 ---
 
-Welcome to the first installment of Coffee and Code with me, [Dan Vega](https://www.danvega.dev/). It's a little insight into what I was up to this week, things I found interesting and anything on my radar for the upcoming week. I will try and keep these pretty short and digestible. So if you don't have a cup of coffee go and grab one and if you do, let's get to it.
+Welcome to the first installment of Coffee and Code with me, [Ricky Januari](https://www.danvega.dev/). It's a little insight into what I was up to this week, things I found interesting and anything on my radar for the upcoming week. I will try and keep these pretty short and digestible. So if you don't have a cup of coffee go and grab one and if you do, let's get to it.
 
 ## Previous Week
 
@@ -78,7 +78,7 @@ This is someone I really enjoy following on Twitter and I think you should check
 Thanks for sitting down and sharing a cup of coffee with me my friend. I hope you enjoyed this first installment of Coffee & Code and I will see you next Sunday morning. If you have any links you would like me to include please contact me and I might add them to a future newsletter. I hope you have a great week and as always friends...
 
 Happy Coding
-Dan Vega
+Ricky Januari
 danvega@gmail.com
 
 [https://www.danvega.dev](https://www.danvega.dev/)

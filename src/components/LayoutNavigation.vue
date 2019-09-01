@@ -3,7 +3,7 @@
     <nav class="navbar container" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img class="avatar-logo" src="../assets/img/ricky.jpeg" alt="Ricky Januari Logo" />
+          <!-- <img class="avatar-logo" src="../assets/img/ricky.jpeg" alt="Ricky Januari Logo" /> -->
           <img src="../assets/img/logo.png" alt="Ricky Januari Logo" />
         </a>
         <a
@@ -23,7 +23,7 @@
           <g-link class="navbar-item is-uppercase" active-class to="/about" >About</g-link>
           <g-link class="navbar-item is-uppercase" active-class  to="/work">Work</g-link>
           <g-link class="navbar-item is-uppercase" active-class to="/blog">Blog</g-link>
-          <g-link class="navbar-item is-uppercase" active-class to="/tutorial">Tutorial</g-link>
+          <g-link class="navbar-item is-uppercase" active-class to="/video">Video</g-link>
           <g-link class="navbar-item is-uppercase" active-class to="/contact">Contact</g-link>
         </div>
       </div>
@@ -61,10 +61,8 @@ export default {
   font-weight: 700;
 } */
 header {
-    
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.13);
-    
-    padding: 1.25rem;
+    padding: 0.25rem
 }
 .avatar-logo {
   border-radius: 50%;

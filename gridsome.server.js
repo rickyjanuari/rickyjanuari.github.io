@@ -17,7 +17,7 @@ module.exports = function (api, options) {
   api.beforeBuild(({ config, store }) => {
 
     // Generate an index file for Fuse to search Posts
-    const { collection } = store.getContentType('Post');
+    const { collection } = store.getContentType('Post','Video');
 
     const posts = collection.data.map(post => {
       return pick(post, ['title', 'path', 'excerpt']);

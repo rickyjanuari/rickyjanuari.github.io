@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1 class="title is-1">Speaking</h1>
-    <div class="content">
+    <!-- <div class="content">
       <p>This is just a few of the events I have spoken at in the past. I have an <a href="https://github.com/cfaddict/danvega-me/issues/3">open issue</a> to update this page with a lot more detail.</p>
       <ul>
           <li>
@@ -20,7 +20,7 @@
         </a>
         </li>
       </ul>
-    </div>
+    </div> -->
   </Layout>
 </template>
 

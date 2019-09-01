@@ -60,7 +60,7 @@ const success = chalk.bold.green.inverse;
       date: createdOn.toISOString(),
       published: false,
       excerpt: excerpt,
-      author: 'Dan Vega',
+      author: 'Ricky Januari',
       tags: tagsList,
       cover: ''
     });

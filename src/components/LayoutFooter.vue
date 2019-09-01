@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="is-flex footer-content">
-        <p>Made with ❤️ in Bandung, Indonesia.</p>
+        <p><small>Copyright © 2019 <a href="/">Ricky Januari</a>.</small></p>
         <social-links />
       </div>
     </div>
@@ -23,8 +23,11 @@ export default {
 <style>
 footer {
   background-color: #00adad;
-  height: 60px;
-  line-height: 60px;
+  height: 40px;
+  line-height: 40px;
+}
+footer a {
+  color: #fff;
 }
 footer p {
   color: white;

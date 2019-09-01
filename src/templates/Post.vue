@@ -14,9 +14,10 @@
           v-if="$page.post.video"
         ></iframe>
       </div>
-      <g-image v-if="!$page.post.video && $page.post.cover" :src="$page.post.cover" class="cover" />
+      <g-image v-if="!$page.post.video && $page.post.cover" :src="$page.post.cover" class="cover" quality="75"/>
       <article v-html="$page.post.content" class="article" />
       <bulma-tag :tags="$page.post.tags" />
+      <vue-disqus shortname="mygridsomesite" :identifier="$page.post.title"></vue-disqus>
       <!-- <convert-kit uid="44cc02ed05" script="https://f.convertkit.com/44cc02ed05/38739557e4.js"></convert-kit> -->
     </div>
   </Layout>
@@ -62,9 +63,9 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:description", content: this.$page.post.excerpt },
         { name: "twitter:title", content: this.$page.post.title },
-        { name: "twitter:site", content: "@therealdanvega" },
+        { name: "twitter:site", content: "@rickyjanuari" },
         { name: "twitter:image", content: this.getCoverImage },
-        { name: "twitter:creator", content: "@therealdanvega" },
+        { name: "twitter:creator", content: "@rickyjanuari" },
 
         { property: "og:type", content: "article" },
         { property: "og:title", content: this.$page.post.title },

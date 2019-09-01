@@ -60,9 +60,9 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:description", content: this.$page.video.excerpt },
         { name: "twitter:title", content: this.$page.video.title },
-        { name: "twitter:site", content: "@therealdanvega" },
+        { name: "twitter:site", content: "@rickyjanuari" },
         { name: "twitter:image", content: this.getCoverImage },
-        { name: "twitter:creator", content: "@therealdanvega" },
+        { name: "twitter:creator", content: "@rickyjanuari" },
 
         { property: "og:type", content: "article" },
         { property: "og:title", content: this.$page.video.title },
@@ -150,9 +150,7 @@ a > span.fas.fa-hashtag {
   color: red;
   margin: 0 5px 0 0;
 }
-.article iframe {
-  height: 563px !important;
-}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -168,5 +166,11 @@ a > span.fas.fa-hashtag {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.article iframe {
+    height: 100% !important;
+}
+.section {
+    padding: 2rem 1.5rem;
 }
 </style>

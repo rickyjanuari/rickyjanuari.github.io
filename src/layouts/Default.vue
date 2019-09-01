@@ -44,6 +44,11 @@ body {
   color: var(--var-text-color);
   background-color: var(--var-bg);
   border-top: 7px solid #00adad;
+  min-height: 100%;
+  position: relative;
+}
+#app {
+  position: relative;
 }
 </style>
 

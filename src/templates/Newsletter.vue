@@ -31,12 +31,12 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:description", content: this.$page.newsletter.title },
         { name: "twitter:title", content: this.$page.newsletter.title },
-        { name: "twitter:site", content: "@therealdanvega" },
+        { name: "twitter:site", content: "@rickyjanuari" },
         {
           name: "twitter:image",
           content: "https://unsplash.com/photos/ZMraoOybTLQ"
         },
-        { name: "twitter:creator", content: "@therealdanvega" },
+        { name: "twitter:creator", content: "@rickyjanuari" },
 
         { property: "og:type", content: "article" },
         { property: "og:title", content: this.$page.newsletter.title },

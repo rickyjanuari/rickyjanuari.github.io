@@ -2,7 +2,7 @@
   <Layout>
     <div class="content">
         <div>
-          <h1 class="title is-2">Hi, Ricky Januari.</h1>
+          <h1 class="title is-2">Hello World</h1>
           <p>I’m Ricky Januari a Freelance Front-end Developer & Wordpress Developer based in Bandung - Indonesia. I have over 4 years of experience designing & building websites.</p>
           <hr>
           <h2 class="title is-3">Work Experience</h2>

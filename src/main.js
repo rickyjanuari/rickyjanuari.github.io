@@ -8,7 +8,8 @@ import DefaultLayout from '~/layouts/Default.vue'
 import * as Sentry from '@sentry/browser';
 import * as Integrations from '@sentry/integrations';
 import VueFuse from 'vue-fuse'
-
+import VueDisqus from 'vue-disqus'
+import VueTypedJs from 'vue-typed-js'
 export default function (Vue, {
   router,
   head,
@@ -17,9 +18,11 @@ export default function (Vue, {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.use(VueFuse)
+  Vue.use(VueDisqus)
+  Vue.use(VueTypedJs)
 
   Sentry.init({
-    dsn: 'https://506350377fb44e1fbc756457c784e23f@sentry.io/1476538',
+    dsn: 'https://14a17033266f442b821e1f39a4ca90a8@sentry.io/1547349',
     integrations: [new Integrations.Vue({
       Vue,
       attachProps: true

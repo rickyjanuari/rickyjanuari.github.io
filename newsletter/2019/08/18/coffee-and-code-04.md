@@ -6,7 +6,7 @@ date: "2019-08-18T08:00:00.000Z"
 
 [Read this on danvega.dev](https://www.danvega.dev/newsletter/2019/08/18/coffee-and-code-04)
 
-Welcome to Coffee and Code with me, Dan Vega. This newsletter is a little insight into what I was up to this week, things I found interesting and anything on my radar for the upcoming week. If you don't already have a cup of coffee grab one now and let's get to it.
+Welcome to Coffee and Code with me, Ricky Januari. This newsletter is a little insight into what I was up to this week, things I found interesting and anything on my radar for the upcoming week. If you don't already have a cup of coffee grab one now and let's get to it.
 
 ## Previous Week
 
@@ -62,6 +62,6 @@ This is someone I really enjoy following on Twitter and I think you should check
 Thanks for sitting down and sharing a cup of coffee with me my friend. I hope you enjoyed this first installment of Coffee & Code and I will see you next Sunday morning. If you have any links you would like me to include please contact me and I might add them to a future newsletter. I hope you have a great week and as always friends...
 
 Happy Coding<br/>
-Dan Vega<br/>
+Ricky Januari<br/>
 danvega@gmail.com<br/>
 [https://www.danvega.dev](https://www.danvega.dev/)<br/>

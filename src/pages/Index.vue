@@ -1,20 +1,25 @@
 <template>
   <Layout>
     <div class="content">
-      <div class="columns is-centered">
-        <div class="column">
-          <g-image src="../assets/img/ricky.jpeg" class="avatar" alt="Dan Vega Avatar" />
+      <div class="columns">
+        <!-- <div class="">
+          <g-image src="../assets/img/ricky.jpeg" class="avatar" alt="Ricky Januari" />
           
-        </div>
-        <div class="column right-side  is-two-thirds">
-          <h1 class="title is-2">Hi, I’m Ricky Januari.</h1>
-          <p
+        </div> -->
+        <div class="column text-center">
+          <h1 class="title is-2">Hello <br>I’m Ricky Januari.</h1>
+          <vue-typed-js :strings="['Front-end Developer', 'Wordpress Developer']">
+            <h3 class="title"><span class="typing"></span> <br>based in Bandung, Indonesia</h3>
+          </vue-typed-js>
+            
+          <h4
             class="intro"
-          >Front-end Developer and Blogger, based in Bandung, Indonesia.</p>
+          >Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</h4>
           
           <!-- <p class="subscribe">Subscribe to get my weekly newsletter and latest articles.</p>
           <convertkit uid="e6035d0111" script="https://f.convertkit.com/e6035d0111/99c16f05bd.js" /> -->
         </div>
+        
       </div>
     </div>
     <!-- <h2 class="title is-3">Recent Blog Posts</h2>
@@ -53,6 +58,7 @@ query Posts {
 <script>
 import convertkit from "@/components/ConvertKit";
 
+
 export default {
   components: {
     convertkit
@@ -60,20 +66,20 @@ export default {
   metaInfo: {
     title: "Welcome to my website",
     meta: [
-      { name: "author", content: "Dan Vega" },
+      { name: "author", content: "Ricky Januari" },
       {
         name: "description",
-        content: "This is the personal blog of Dan Vega."
+        content: "This is the personal blog of Ricky Januari."
       },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:description", content: "The personal blog of Dan Vega" },
-      { name: "twitter:title", content: "Dan Vega" },
-      { name: "twitter:site", content: "@therealdanvega" },
+      { name: "twitter:description", content: "The personal blog of Ricky Januari" },
+      { name: "twitter:title", content: "Ricky Januari" },
+      { name: "twitter:site", content: "@rickyjanuari" },
       {
         name: "twitter:image",
-        content: `${process.env.GRIDSOME_BASE_URL}/images/danvega_dev_cover.png`
+        content: `${process.env.GRIDSOME_BASE_URL}/images/rickyjanuari_cover.png`
       },
-      { name: "twitter:creator", content: "@therealdanvega" }
+      { name: "twitter:creator", content: "@rickyjanuari" }
     ]
   }
 };
@@ -89,8 +95,15 @@ export default {
   margin: 30px auto;
       border-radius: 50%;
 }
-.right-side {
+.text-center {
   text-align: center;
+}
+.typed-element {
+    display: block;
+    align-items: center;
+}
+.intro {
+  width: 50%;
 }
 
 /* We only want our complex grid layout when we are on larger screens */
@@ -101,6 +114,9 @@ export default {
     grid-gap: 10px;
     margin-bottom: 30px;
   }
+  .intro {
+  width: 100%;
+}
 
   .post {
     position: relative;
