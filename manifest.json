@@ -7,6 +7,16 @@
   "background_color": "#ffffff",
   "icons": [
     {
+      "src": "assets/static/blog-hexo.1b91758.7330f5c.webp",
+      "sizes": "480x210",
+      "type": "image/webp"
+    },
+    {
+      "src": "assets/static/blog-hexo.36a08ae.7330f5c.webp",
+      "sizes": "640x280",
+      "type": "image/webp"
+    },
+    {
       "src": "assets/static/danvega-avatar.1b1e47a.faaaa00.png",
       "sizes": "80x113",
       "type": "image/png"
