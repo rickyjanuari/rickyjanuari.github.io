@@ -7,37 +7,27 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "assets/static/blog-hexo.1b91758.7330f5c.webp",
-      "sizes": "480x210",
-      "type": "image/webp"
-    },
-    {
-      "src": "assets/static/blog-hexo.36a08ae.7330f5c.webp",
-      "sizes": "640x280",
-      "type": "image/webp"
-    },
-    {
-      "src": "assets/static/danvega-avatar.1b1e47a.faaaa00.png",
+      "src": "assets/static/danvega-avatar.1b1e47a.faaaa00645b2a3c9c199f40fd55348bf.png",
       "sizes": "80x113",
       "type": "image/png"
     },
     {
-      "src": "assets/static/favicon.ac8d93a.cc48857.png",
+      "src": "assets/static/favicon.ac8d93a.cc4885725eca304299c47a07b3e43b92.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "assets/static/favicon.b9532cc.cc48857.png",
+      "src": "assets/static/favicon.b9532cc.cc4885725eca304299c47a07b3e43b92.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "assets/static/favicon.ce0531f.cc48857.png",
+      "src": "assets/static/favicon.ce0531f.cc4885725eca304299c47a07b3e43b92.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "assets/static/favicon.f22e9f3.cc48857.png",
+      "src": "assets/static/favicon.f22e9f3.cc4885725eca304299c47a07b3e43b92.png",
       "sizes": "76x76",
       "type": "image/png"
     },
@@ -47,7 +37,7 @@
       "type": "image/png"
     },
     {
-      "src": "assets/static/signature.03b5461.f00be90.png",
+      "src": "assets/static/signature.03b5461.f00be905b93c0ca390f194ad22a36d95.png",
       "sizes": "147x85",
       "type": "image/png"
     }
