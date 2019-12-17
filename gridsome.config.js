@@ -12,6 +12,12 @@ module.exports = {
   pathPrefix: '',
   plugins: [
       {
+        use: '@gridsome/plugin-google-analytics',
+        options: {
+          id: 'G-8H6YG51P20'
+        }
+      },
+      {
         use: 'gridsome-plugin-pwa',
         options: {
             title: 'Ricky Januari',
