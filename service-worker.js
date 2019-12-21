@@ -131,7 +131,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/video/index.json",
-    "revision": "e159421bc85c2ee9e0fd38de4be87336"
+    "revision": "b177efcffea59b5adab017dd83f94d44"
   },
   {
     "url": "assets/data/video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator/index.json",
@@ -375,7 +375,7 @@ self.__precacheManifest = [
   },
   {
     "url": "video/index.html",
-    "revision": "f93a28367fde8a3a263832f44f7f286e"
+    "revision": "fae16e222fd60770ff222f6acc524ffe"
   },
   {
     "url": "video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator/index.html",
@@ -414,20 +414,20 @@ self.__precacheManifest = [
     "revision": "28f25f53f5ce5d7c39f9df9ad1964986"
   },
   {
-    "url": "newsletter/2019/08/04/coffee-and-code-02",
-    "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
-  },
-  {
     "url": "newsletter/2019/07/28/coffee-and-code-01",
     "revision": "b49274c04385441f07bbd8919ad02a3a"
   },
   {
-    "url": "newsletter/2019/08/18/coffee-and-code-04",
-    "revision": "ce4b46a36bf842937b09b583bffe05f0"
-  },
-  {
     "url": "newsletter/2019/08/11/coffee-and-code-03",
     "revision": "89904d45eefd2699b94cd2b08e9341af"
+  },
+  {
+    "url": "newsletter/2019/08/04/coffee-and-code-02",
+    "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
+  },
+  {
+    "url": "newsletter/2019/08/18/coffee-and-code-04",
+    "revision": "ce4b46a36bf842937b09b583bffe05f0"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05",
@@ -462,20 +462,20 @@ self.__precacheManifest = [
     "revision": "aebcba7a51bf6f737d65ac82d526bb7d"
   },
   {
-    "url": "video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator",
-    "revision": "754db5eb2fdf181555aa078165b89ae7"
+    "url": "video/part1-instagram-ui-tutorial-with-react-native-installing-react-native",
+    "revision": "80d8e01e564a24da31fa5a1a91bef6c0"
   },
   {
     "url": "video/part-3-stories-ui-instagram-tutorial-with-react-native-only-ui",
     "revision": "5e55488e2debefcaf6279eed44e3d9bf"
   },
   {
-    "url": "video/react-native-tutorial-home-ui-youtube-app-only-ui",
-    "revision": "80cba261bedd20f82cde0060d504c081"
+    "url": "video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator",
+    "revision": "754db5eb2fdf181555aa078165b89ae7"
   },
   {
-    "url": "video/part1-instagram-ui-tutorial-with-react-native-installing-react-native",
-    "revision": "80d8e01e564a24da31fa5a1a91bef6c0"
+    "url": "video/react-native-tutorial-home-ui-youtube-app-only-ui",
+    "revision": "80cba261bedd20f82cde0060d504c081"
   },
   {
     "url": "tag/tutorial",
