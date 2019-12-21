@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d17b9ecc0dcdbd3d3877beff7ab73cb0"
+    "revision": "cf87e585f9cf7af0b6473a33ecd87a52"
   },
   {
     "url": "404/index.html",
-    "revision": "d17b9ecc0dcdbd3d3877beff7ab73cb0"
+    "revision": "cf87e585f9cf7af0b6473a33ecd87a52"
   },
   {
     "url": "about/index.html",
-    "revision": "c44806138234748ce00e442cd17a6d24"
+    "revision": "e96eb3ffba53cbabbbe748a2844be4e2"
   },
   {
     "url": "assets/css/0.styles.9782bb09.css",
@@ -43,135 +43,135 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/404/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/about/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page/index.json",
-    "revision": "6986f90c46ff2603e3c0231018dac013"
+    "revision": "a2a4a8e49bf8b61dc5380c3fad89516e"
   },
   {
     "url": "assets/data/blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql/index.json",
-    "revision": "3a4a4e95e8415ff71a4e887c4cdfa854"
+    "revision": "55f5c33ba7f0b91df8b560d5924be269"
   },
   {
     "url": "assets/data/blog/index.json",
-    "revision": "3b36fc0e273cbc2cfea844ec8d43cec6"
+    "revision": "d0681c2d798cf43a307f3412ca8b8c84"
   },
   {
     "url": "assets/data/books/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/contact/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/courses/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/courses/intro-to-vue/signup/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/index.json",
-    "revision": "7b87954f2c7418344f9f3b651bfe3db6"
+    "revision": "190afe90a6b14a6f0719e7104a10ec95"
   },
   {
     "url": "assets/data/newsletter/2019/07/28/coffee-and-code-01/index.json",
-    "revision": "cdeef0171cb41033a719346065abcfe4"
+    "revision": "77a1d8426fb477cfa626a74b17b6b4ff"
   },
   {
     "url": "assets/data/newsletter/2019/08/04/coffee-and-code-02/index.json",
-    "revision": "f3a8efd0eb969ac8b4af653e49521b5b"
+    "revision": "a474a2f8288cc33c45cd456171f7e845"
   },
   {
     "url": "assets/data/newsletter/2019/08/11/coffee-and-code-03/index.json",
-    "revision": "8752f3c367e963494dfa3c9825016416"
+    "revision": "2e883155aca6ab2e3cb2bf1f223e434f"
   },
   {
     "url": "assets/data/newsletter/2019/08/18/coffee-and-code-04/index.json",
-    "revision": "605d3e9444cca043a71b492948b78e5a"
+    "revision": "e4ed78393f600c7050ad76e749849c1f"
   },
   {
     "url": "assets/data/newsletter/2019/08/25/coffee-and-code-05/index.json",
-    "revision": "e99ccd559542642d69aacc65ee6266bc"
+    "revision": "bfd436a9a40de1b2f238487c53c764cd"
   },
   {
     "url": "assets/data/projects/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/signup/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/speaking/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/subscribe-thank-you/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/data/tag/gatsby/index.json",
-    "revision": "d17a398cdff91195e7d0fa73fc20409b"
+    "revision": "0c1d4da5c55e68c11cf5423c2194b45d"
   },
   {
     "url": "assets/data/tag/hexo/index.json",
-    "revision": "717479ca8f73f69972d7496e26928f19"
+    "revision": "a8ae7ca712936d4e4afa31fc8589a006"
   },
   {
     "url": "assets/data/tag/tutorial/index.json",
-    "revision": "4ff35aec102878b9e97b8e6ead8b36d6"
+    "revision": "ab7589284ea954bb30ed5241836b98f9"
   },
   {
     "url": "assets/data/video/index.json",
-    "revision": "5d725d403628fe96785b205323320bb7"
+    "revision": "e159421bc85c2ee9e0fd38de4be87336"
   },
   {
     "url": "assets/data/video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator/index.json",
-    "revision": "11baa60dafaa92e30990a226c0b00142"
+    "revision": "fc8739812a5de5ad9371e96c20f01a30"
   },
   {
     "url": "assets/data/video/part-3-stories-ui-instagram-tutorial-with-react-native-only-ui/index.json",
-    "revision": "88c2d6ed1f77a537caa9452bdf69f25f"
+    "revision": "8ab98c6aa8ee07f1876f394b2777d911"
   },
   {
     "url": "assets/data/video/part1-instagram-ui-tutorial-with-react-native-installing-react-native/index.json",
-    "revision": "c4832d25403ade0e1e604217831a6e10"
+    "revision": "09ce2d23dbc9ee277a453ec7c276dcff"
   },
   {
     "url": "assets/data/video/react-native-tutorial-home-ui-youtube-app-only-ui/index.json",
-    "revision": "81fe35b0d99db88e3f1214adf234585e"
+    "revision": "be50919c4092c3c778f71518f74e712b"
   },
   {
     "url": "assets/data/video/tag/react-native/index.json",
-    "revision": "7082e737629053a6cdb69c4650e22163"
+    "revision": "dfa7352848f5fff8bcd619c9c4d4b746"
   },
   {
     "url": "assets/data/video/tag/react/index.json",
-    "revision": "7082e737629053a6cdb69c4650e22163"
+    "revision": "dfa7352848f5fff8bcd619c9c4d4b746"
   },
   {
     "url": "assets/data/video/tag/speed-coding/index.json",
-    "revision": "7082e737629053a6cdb69c4650e22163"
+    "revision": "dfa7352848f5fff8bcd619c9c4d4b746"
   },
   {
     "url": "assets/data/work/index.json",
-    "revision": "182797cf32d6fc6d1f5f7a5e7fdd6463"
+    "revision": "2f3f5f18493b7eb0d278cb67cb21f7ec"
   },
   {
     "url": "assets/img/course_signup_bg.d6ef0948.png",
     "revision": "d6ef09483257c93c3b48ca94a6da23db"
   },
   {
-    "url": "assets/js/app.622a1640.js",
-    "revision": "8aae2460fd112fad494d092219db498b"
+    "url": "assets/js/app.97342ded.js",
+    "revision": "fce4656ad25fd94bf57cb2de3c4f3f2e"
   },
   {
     "url": "assets/js/page--src--pages--404-vue.32642094.js",
@@ -182,7 +182,7 @@ self.__precacheManifest = [
     "revision": "bb893acde4cfdc5430f4591dcc3a893e"
   },
   {
-    "url": "assets/js/page--src--pages--blog-vue.6beec07e.js",
+    "url": "assets/js/page--src--pages--blog-vue.5b0d99ed.js",
     "revision": "788f319a8dbf6adc02bb890ce3ed8c3f"
   },
   {
@@ -202,7 +202,7 @@ self.__precacheManifest = [
     "revision": "6b2e433db7c86b4a8d6bb82eb39904cd"
   },
   {
-    "url": "assets/js/page--src--pages--index-vue.3e26f973.js",
+    "url": "assets/js/page--src--pages--index-vue.1bc1b586.js",
     "revision": "9a2db779bfb96b4e305e320fbe07d893"
   },
   {
@@ -222,7 +222,7 @@ self.__precacheManifest = [
     "revision": "c07efe2efbdbf4c521078917e008452e"
   },
   {
-    "url": "assets/js/page--src--pages--video-vue.58b81bc2.js",
+    "url": "assets/js/page--src--pages--video-vue.b476b7a8.js",
     "revision": "b189dbeb17425a918caadbc237c6c977"
   },
   {
@@ -230,23 +230,23 @@ self.__precacheManifest = [
     "revision": "cb6f97236e3fbda9ed64618f477d1432"
   },
   {
-    "url": "assets/js/page--src--templates--newsletter-vue.b62f22b6.js",
+    "url": "assets/js/page--src--templates--newsletter-vue.5cb8d152.js",
     "revision": "c87500ace641759955e276ab9f6559c0"
   },
   {
-    "url": "assets/js/page--src--templates--post-vue.0fefd65b.js",
+    "url": "assets/js/page--src--templates--post-vue.e3b1dd84.js",
     "revision": "93218289dcbbded7a49d826afddafaa6"
   },
   {
-    "url": "assets/js/page--src--templates--tag-vue.1c7c9ee8.js",
+    "url": "assets/js/page--src--templates--tag-vue.2ec2f6ea.js",
     "revision": "4ad0ad9071710833fda5f1dc2afd8f05"
   },
   {
-    "url": "assets/js/page--src--templates--video-tag-vue.ec499f09.js",
+    "url": "assets/js/page--src--templates--video-tag-vue.11f0a5ab.js",
     "revision": "2332f8a79f0126f5e48debf2c884c38f"
   },
   {
-    "url": "assets/js/page--src--templates--video-vue.45aa524e.js",
+    "url": "assets/js/page--src--templates--video-vue.dccc5d46.js",
     "revision": "4d3c79bad2d1111c701411b5f78841bb"
   },
   {
@@ -283,31 +283,31 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page/index.html",
-    "revision": "91755cf511b650535a5a4f2388eb356a"
+    "revision": "900a088b79b7d0bd14ed84fc3667af46"
   },
   {
     "url": "blog/2019/08/27/gatsby-adalah-generator-situs-statis-yang-menggunakan-react-dan-graph-ql/index.html",
-    "revision": "7dc4e76c0846bcc5fff97b8311b5742d"
+    "revision": "547b7dfd6c694ec8d5cbb7bdbe2e687e"
   },
   {
     "url": "blog/index.html",
-    "revision": "90bdfac015fb9e9de894877b0c2bbde8"
+    "revision": "3b81b5161a1194b9e3cdc2917a198649"
   },
   {
     "url": "books/index.html",
-    "revision": "31ae84c2abb794474e4f333084425e8f"
+    "revision": "f1b08c93a4f6587835954be2941028c7"
   },
   {
     "url": "contact/index.html",
-    "revision": "030af3a81a908c28ccf2b9a380eb6415"
+    "revision": "f5e19606dd2c22bf096d1384683c0afe"
   },
   {
     "url": "courses/index.html",
-    "revision": "c2840e18df457fdb1efda4461e56edbd"
+    "revision": "d9d70d935f4633160b8febc0e7db5bf8"
   },
   {
     "url": "courses/intro-to-vue/signup/index.html",
-    "revision": "3f346af4dd13af5a2334d1e06300a5f0"
+    "revision": "3feb2a362808f50f9812b5d6e0821e80"
   },
   {
     "url": "images/rickyjanuari_cover.png",
@@ -315,7 +315,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "25e08d595781cc57b1dbbaee5bc98abe"
+    "revision": "c803aa23b6988606378914d60c358b2a"
   },
   {
     "url": "manifest.json",
@@ -323,27 +323,27 @@ self.__precacheManifest = [
   },
   {
     "url": "newsletter/2019/07/28/coffee-and-code-01/index.html",
-    "revision": "ae07c197a8b92667800900d6c27389dd"
+    "revision": "e0e2c5999b717f3a01bc8c00cc83a6d6"
   },
   {
     "url": "newsletter/2019/08/04/coffee-and-code-02/index.html",
-    "revision": "31ab91c0ed475f478cf3238c3d0fc064"
+    "revision": "89755583fedb1d58fa5f12478a60a1d0"
   },
   {
     "url": "newsletter/2019/08/11/coffee-and-code-03/index.html",
-    "revision": "dfb70a0dbd712afa76dd300ee64cbd26"
+    "revision": "648844a09ac4abeecf883fe78ea0bb52"
   },
   {
     "url": "newsletter/2019/08/18/coffee-and-code-04/index.html",
-    "revision": "2833ab568a812cbb1a23b4c69b604933"
+    "revision": "e0b49304237f290ef5198163e3f66a43"
   },
   {
     "url": "newsletter/2019/08/25/coffee-and-code-05/index.html",
-    "revision": "709e8cb121c64d1f9c8559687b03ca90"
+    "revision": "e8b400b46ac3188102e8c3b2be29890e"
   },
   {
     "url": "projects/index.html",
-    "revision": "79dcbaf35ceb30f95ecb5fc2faccc040"
+    "revision": "22caf009920ba0f339b2bb854f309201"
   },
   {
     "url": "search.json",
@@ -351,63 +351,63 @@ self.__precacheManifest = [
   },
   {
     "url": "signup/index.html",
-    "revision": "e4ce48faec12ac97b924b7ad5b5ac0da"
+    "revision": "0f1d4956ac8589547320e4e486d6b90f"
   },
   {
     "url": "speaking/index.html",
-    "revision": "3272b1b21cc173d64ae658ec5ac1094c"
+    "revision": "d7a0a7051dfa3f4063c9e5b180a3b57c"
   },
   {
     "url": "subscribe-thank-you/index.html",
-    "revision": "2b359e8a1e6a69c6cb9c16fad4c4223a"
+    "revision": "3f3be58fc6833375b9cfe9c900609c1c"
   },
   {
     "url": "tag/gatsby/index.html",
-    "revision": "f79938b4daef54709c365fc268547567"
+    "revision": "6448cf42df73d3c54589a63a6723294c"
   },
   {
     "url": "tag/hexo/index.html",
-    "revision": "9ffaca6109a7e7302753a4d0fa8aa652"
+    "revision": "cee6ca69300cf00a60e30b1eb1125f60"
   },
   {
     "url": "tag/tutorial/index.html",
-    "revision": "18c9220f2c4af12b2e5ad6c5537c042c"
+    "revision": "150233c06ac1f02e27878df802271771"
   },
   {
     "url": "video/index.html",
-    "revision": "1a0523ef2650908a03b72fe85a41cb48"
+    "revision": "f93a28367fde8a3a263832f44f7f286e"
   },
   {
     "url": "video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator/index.html",
-    "revision": "98d9492b2d4a48442a47f18dbdab3a34"
+    "revision": "5535136418fb969d412eee4cd7eeb8c9"
   },
   {
     "url": "video/part-3-stories-ui-instagram-tutorial-with-react-native-only-ui/index.html",
-    "revision": "d238f3b86071c831dc22cf2e46a70f11"
+    "revision": "0993426c12335f0b0c50d2eba5a776ea"
   },
   {
     "url": "video/part1-instagram-ui-tutorial-with-react-native-installing-react-native/index.html",
-    "revision": "a1ab4afa8bb6b4fa3a5393c83298783d"
+    "revision": "2cef613ed8ad815783d3aaa9c3125199"
   },
   {
     "url": "video/react-native-tutorial-home-ui-youtube-app-only-ui/index.html",
-    "revision": "fe5dc7f70d30637594fb26c0bf3a6210"
+    "revision": "bda6d01d2255fbbddbbc73310d0b8038"
   },
   {
     "url": "video/tag/react-native/index.html",
-    "revision": "e3d318ea3dc5a2cdf70dd8190bcd6351"
+    "revision": "e735d5e852419a0849f1fb1292e10b42"
   },
   {
     "url": "video/tag/react/index.html",
-    "revision": "e3d318ea3dc5a2cdf70dd8190bcd6351"
+    "revision": "e735d5e852419a0849f1fb1292e10b42"
   },
   {
     "url": "video/tag/speed-coding/index.html",
-    "revision": "e3d318ea3dc5a2cdf70dd8190bcd6351"
+    "revision": "e735d5e852419a0849f1fb1292e10b42"
   },
   {
     "url": "work/index.html",
-    "revision": "c51ef56bf9cb0fa893f500ba2ea698ed"
+    "revision": "ee7ae02e2afdc1a041625c8fe70f0493"
   },
   {
     "url": "404",
@@ -418,20 +418,20 @@ self.__precacheManifest = [
     "revision": "7417a1c3f26c37ae62d318ac6a979e6f"
   },
   {
-    "url": "newsletter/2019/08/25/coffee-and-code-05",
-    "revision": "88fc86f6188e4a9d2dab7c3e48628af4"
-  },
-  {
     "url": "newsletter/2019/07/28/coffee-and-code-01",
     "revision": "b49274c04385441f07bbd8919ad02a3a"
+  },
+  {
+    "url": "newsletter/2019/08/18/coffee-and-code-04",
+    "revision": "ce4b46a36bf842937b09b583bffe05f0"
   },
   {
     "url": "newsletter/2019/08/11/coffee-and-code-03",
     "revision": "89904d45eefd2699b94cd2b08e9341af"
   },
   {
-    "url": "newsletter/2019/08/18/coffee-and-code-04",
-    "revision": "ce4b46a36bf842937b09b583bffe05f0"
+    "url": "newsletter/2019/08/25/coffee-and-code-05",
+    "revision": "88fc86f6188e4a9d2dab7c3e48628af4"
   },
   {
     "url": "blog/2019/08/08/cara-membuat-blog-dengan-hexo-dan-hosting-github-page",
@@ -462,20 +462,20 @@ self.__precacheManifest = [
     "revision": "aebcba7a51bf6f737d65ac82d526bb7d"
   },
   {
-    "url": "video/part1-instagram-ui-tutorial-with-react-native-installing-react-native",
-    "revision": "80d8e01e564a24da31fa5a1a91bef6c0"
-  },
-  {
     "url": "video/part-2-instagram-ui-tutorial-with-react-native-layout-ui-series-menu-tab-navigator",
     "revision": "754db5eb2fdf181555aa078165b89ae7"
+  },
+  {
+    "url": "video/part-3-stories-ui-instagram-tutorial-with-react-native-only-ui",
+    "revision": "5e55488e2debefcaf6279eed44e3d9bf"
   },
   {
     "url": "video/react-native-tutorial-home-ui-youtube-app-only-ui",
     "revision": "80cba261bedd20f82cde0060d504c081"
   },
   {
-    "url": "video/part-3-stories-ui-instagram-tutorial-with-react-native-only-ui",
-    "revision": "5e55488e2debefcaf6279eed44e3d9bf"
+    "url": "video/part1-instagram-ui-tutorial-with-react-native-installing-react-native",
+    "revision": "80d8e01e564a24da31fa5a1a91bef6c0"
   },
   {
     "url": "tag/tutorial",
@@ -502,12 +502,12 @@ self.__precacheManifest = [
     "revision": "aa78749d96f9d6b64ca701798e5ff8b7"
   },
   {
-    "url": "speaking",
-    "revision": "1ae8c756be3d71d951ca07c3d97706d2"
-  },
-  {
     "url": "signup",
     "revision": "15b0a5cec4ab2fcb3f22627cf9387e1b"
+  },
+  {
+    "url": "speaking",
+    "revision": "1ae8c756be3d71d951ca07c3d97706d2"
   },
   {
     "url": "projects",
