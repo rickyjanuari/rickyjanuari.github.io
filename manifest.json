@@ -45,6 +45,16 @@
       "src": "assets/static/signature.03b5461.f00be905b93c0ca390f194ad22a36d95.png",
       "sizes": "147x85",
       "type": "image/png"
+    },
+    {
+      "src": "assets/static/website-rebuilt-in-gatsbyjs.1b91758.aa4b1298a554fa07edc77c6a9c28d351.png",
+      "sizes": "480x261",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/static/website-rebuilt-in-gatsbyjs.255899d.aa4b1298a554fa07edc77c6a9c28d351.png",
+      "sizes": "920x500",
+      "type": "image/png"
     }
   ]
 }
