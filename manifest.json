@@ -7,11 +7,6 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "assets/static/blog-hexo.36a08ae.7330f5cc4de2c4a81aa1ac0beeb67d2a.webp",
-      "sizes": "640x280",
-      "type": "image/webp"
-    },
-    {
       "src": "assets/static/danvega-avatar.1b1e47a.faaaa00645b2a3c9c199f40fd55348bf.png",
       "sizes": "80x113",
       "type": "image/png"
@@ -44,16 +39,6 @@
     {
       "src": "assets/static/signature.03b5461.f00be905b93c0ca390f194ad22a36d95.png",
       "sizes": "147x85",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/static/website-rebuilt-in-gatsbyjs.1b91758.aa4b1298a554fa07edc77c6a9c28d351.png",
-      "sizes": "480x261",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/static/website-rebuilt-in-gatsbyjs.255899d.aa4b1298a554fa07edc77c6a9c28d351.png",
-      "sizes": "920x500",
       "type": "image/png"
     }
   ]
